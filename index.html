@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html Lang="es">
+<!--Esto es un comentario-->
+
+    <head>
+        <title>Página de perritos</title>
+        <meta charset="UTF-8"> <!--tildes-->
+        <link href="estilo.css" rel="stylesheet"> <!--relación - hoja de estilos-->
+    </head>
+    <body>
+        <h1> Página de perritos</h1>
+        <!--imagen de internet  class="img1"-->
+        <img src="https://img.freepik.com/foto-gratis/lindo-perrito-haciendose-pasar-persona-negocios_23-2148985938.jpg" >
+        <!--imagen de compu-->
+        <img src="imagenes/perritos3.jpg">
+        <br>
+        <!--enlaces externos-->
+        <p>Si quieres ver más imágenes de perritos, <a href="https://www.pinterest.com.mx/search/pins/?q=fotos%20de%20perritos&rs=typed" target="_blank">da click en este enlace.</a></p> <!--blank es para página nueva-->
+
+        <h3>¿Los conoces? Ven a hacerlo!</h3>
+        <p>3 Cosas que los perritos <strong>aman</strong>:</p>  <!--strong es negrilla-->
+        <!--lista ordenada-->
+        <ol> <!--ordered list-->
+            <li>Comida</li> <!--list item (1,2,3)-->
+            <li>Jugar</li>
+            <li>Pasear</li>
+        </ol>
+
+        <p>3 Cosas que los perritos <i>odian</i>:</p>  <!--i es cursiva-->
+        <!--lista desordenada-->
+        <ul> <!--unordered list-->
+            <li>Bañarse</li> <!--list item (puntos)-->
+            <li>La ropa</li>
+            <li>Ruidos fuertes</li>
+        </ul>
+
+        <!--formularios-->
+        <form>
+            <!--botones de radio, osea solo 1 opción seleccionada-->
+            <p>¿Tu perrito es cachorro o adulto?</p>
+            <label>
+                <input id="Cachorro" type="radio" value="Cachorro" name="bebe-viejo"> Cachorro
+                <!--en el input poner checked es para ya seleccionada-->
+                <input id="Adulto" type="radio" value="adulto" name="bebe-viejo"> Adulto
+            </label>
+
+            <!--botones de casillas, varias respuestas-->
+            <p>¿Qué tipo de personalidad es tu perrito?</p>
+            <label>
+                <input id="enojon" type="checkbox" value="enojon" name="personalidad">Enojón <br>
+                <input id="loco" type="checkbox" value="loco" name="personalidad">Loco <br>
+                <input id="amor" type="checkbox" value="amor" name="personalidad">Amoroso <br>
+                <input id="juego" type="checkbox" value="juego" name="personalidad">Juguetón <br>
+                <input id="dormilon" type="checkbox" value="dormilon" name="personalidad">Dormilón <br>
+            </label>
+        </form>
+    </body>
+    <footer> 
+        <p><small>Esta página fue creada durante una clase de TecnoloChicas PRO.</small></p>
+    </footer>
+
+</html>

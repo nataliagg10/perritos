@@ -1,0 +1,34 @@
+body{
+    background-color: #fff9f4; /*color al fondo de pantalla*/
+    color:#f04155; /*color de la letra*/
+    font-family: Verdana; /*Tipo de letra y es una lista de estilos de letra para que se use la que es compatible con el navegador*/
+}
+
+h3{
+    color: #71cbc4;
+    font-size: 20px;
+}
+
+h1{
+    color: #ff823a;
+    font-size: 30px;
+}
+
+p{
+    /*font-family: Verdana;*/
+    color: #000000;
+    font-size: 15px;
+}
+
+img{ /*para individuales se pone .img1 (que es la clase)*/
+    width: 400px;
+    height: 280px;
+    border-style: solid;
+    border-color: #cdd56e;
+    margin-left: 20px;
+}
+
+
+a, small{
+    color: #ffbd68;
+}
